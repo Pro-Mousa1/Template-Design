@@ -1,0 +1,142 @@
+.top {
+    background-color: black;
+    display: flex;
+}
+.top-left{
+    width: 20%;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.top-left h4{
+    color: white;
+}
+.top-right{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.top-right button{
+    background-color: transparent;
+    color: white;
+    border: unset;
+}
+.mid-one{
+    background-color: slategray;
+    display: flex;
+}
+.mid-one-left{
+    width: 50%;
+    padding-left: 20px;
+}
+.mid-one-left h4,p{
+    color: white;
+}
+.mid-one-left button{
+    width: 120px;
+    height: 30px;
+    border: unset;
+    border-radius: 7px;
+    background-color: orange;
+    color: white;
+}
+.mid-one-right{
+    width: 50%;
+}
+.mid-one-right img{
+    width: 95%;
+    height: 25vh;
+    padding-top: 3%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.mid-two{
+    background-color: grey;
+    display: flex;
+    padding-left: 8%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+}
+.mid-two img{
+    width: 100%;
+}
+.mid-two button{
+    width: 120px;
+    height: 30px;
+    border: unset;
+    border-radius: 7px;
+    background-color: orange;
+    color: white;
+}
+.mid-two-left{
+    width: 33%;
+}
+.mid-two-left h4{
+    color: black;
+}
+.mid-two-left p{
+    color: white;
+}
+.mid-two-middle{
+    width: 33%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+}
+.mid-two-right{
+    width: 33%;
+    padding-right: 60px;
+    padding-top: 60px;
+}
+.bottom{
+    background-color: darkslategrey;
+    display: flex;
+}
+.tile{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+.tile p{
+    padding-left: 15px;
+}
+.bottom h5{
+    color: white;
+}
+.bottom-left{
+    width: 33%;
+    padding-left: 5%;
+    padding-top: 10px;
+}
+.bottom-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+}
+.bottom-middle{
+    width: 33%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.bottom-middle p{
+    color: white;
+}
+.bottom-right{
+    width: 33%;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.social h5{
+    color: #000000;
+    padding-left: 15px;
+}
+.bottom-right img{
+    width: 40px;
+    height: 40px;
+}
